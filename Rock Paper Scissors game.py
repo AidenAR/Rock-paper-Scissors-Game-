@@ -48,6 +48,9 @@ def rps():
         rematch = input(replay_msg.format(name)).lower()
         if rematch != 'y':
             break
+         else:
+            player_move =''
+            computer_move = ''
     print(goodbye_msg.format(name))
 
 
